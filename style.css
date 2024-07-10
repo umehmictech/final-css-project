@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
+
 }
 header{
     width: 100%;
@@ -24,7 +25,6 @@ header nav{
     
 }
 header nav .logo{
-    font-weight: bold;
     font-size: 1.5rem;
 }
 header nav .menu{
@@ -38,14 +38,18 @@ header nav .menu a{
     text-decoration: none;
     color: rgb(165, 161, 161);
     padding-right: 20px;
+    font-weight: 700px;
+    font-size: 18px;
 }
 header nav .req{
-    background-color: rgb(77, 228, 77);
+    /* background-color: rgb(77, 228, 77); */
+    background-image: linear-gradient(to right,hsl(139, 77%, 47%), hsl(244, 75%, 69%));
     color: white;
-    padding: 15px 20px;
-    border-radius: 40%;
-    font-weight: bold;
-    cursor: pointer;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700px;
+    
 }
 header nav .hamburger{
     display: none;
