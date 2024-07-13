@@ -77,8 +77,13 @@ main{
     }
     main .hero{
         width: 100%;
+<<<<<<< HEAD
         height: 100vh;}
 
+=======
+        height: 100vh;
+    }
+>>>>>>> 44563f5edf7e4ce123e32a479f4330242005ef02
     header nav .hamburger span{
         display: inline-block;
         width: 90%;
@@ -211,9 +216,9 @@ main{
     .logo, .invite-copy{
         display: flex;
         flex-direction: column;
-        gap: 3rem;
-        
+        gap: 3rem; 
     }
+
     .flc:hover{
         color:#31c17b ;
     }
