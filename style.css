@@ -8,6 +8,10 @@
     color: #333;
 
 }
+body {
+    width: 100%;
+    height: 100vh ;
+}
 
 a {
     text-decoration: none;
@@ -80,12 +84,13 @@ header nav .hamburger{
 
 main{
     width: 100%;
-    height: 100vh;
+    height: 100vh auto;
     /* margin: 30px 10px; */
     }
     main .hero{
+        display: block;
         width: 100%;
-        height: 100vh;
+        height: 100vh auto;
     }
 
     header nav .hamburger span{
@@ -160,9 +165,69 @@ main{
         text-align: start;
     }
     main .hero .latest{
-        height: 300px;
+        width: 100%;
+        height: 50vh auto;
+        background-color: #f7f3f3;
         
     }
+    main .hero .latest .hed{
+        width: 100%;
+        padding: 15px;
+    }
+    main .hero .latest .articles-grid {
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 5px;
+    }
+    main .hero .latest .articles-grid .article {
+        width: 20%;
+        background-color: #fff;
+        height: fit-content;
+        margin: 10px 15px;
+    }
+    main .hero .latest .articles-grid .article .img{
+        display: block;
+        background-color: red;
+        width: 100%;
+        height: fit-content;
+        margin: 15px 0px;
+    }
+    main .hero .latest .articles-grid .article img{
+        width: 100%;
+    }
+    main .hero .latest .articles-grid .article .txt{
+        width: 100%;
+        padding: 5px;
+    }
+    /* main .hero .latest .article-grid article {
+        width: 25%;
+        height: 3;
+    }
+    main .hero .latest .article-grid article img{
+        width: 2rem;
+    }
+    main .articles {
+        width: 100%;
+        background-color: #f4f7f6;
+        padding: 4rem 2rem;
+        display: flex;
+        height: 30vh;
+    }
+    
+    article {
+        background-color: #fff;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        max-width: 22%;
+    }
+    
+    article img {
+        width: 100%;
+        height: auto;
+    }
+     */
+    
     footer {
         background-color: rgb(6, 6, 41);
         padding: 2rem;
