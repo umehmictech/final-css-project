@@ -218,9 +218,9 @@ main{
     .logo, .invite-copy{
         display: flex;
         flex-direction: column;
-        gap: 3rem;
-        
+        gap: 3rem; 
     }
+
     .flc:hover{
         color:#31c17b ;
     }
