@@ -328,8 +328,9 @@ opacity: .4;
         text-align: center;
         height: fit-content;
         margin: 5px;
-        background-color: hsl(139, 77%, 47%);
+        background-image: linear-gradient(to right, hsl(139, 77%, 47%), hsl(244, 75%, 69%)); 
         border-radius: 15px;
+        border: none;
     }
     main .hero .next .mobil{
         width: 50%;
