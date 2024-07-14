@@ -82,29 +82,41 @@ header nav .hamburger{
         width: 100%;
     } 
 
+
+header nav .hamburg{
+    display: none;
+    width: 40px;
+    height: 30px;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header nav .hamburg span{
+    display: inline-block;
+    width: 90%;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
 main{
     width: 100%;
     height: 100vh auto;
     /* margin: 30px 10px; */
-    display: block;
     }
     main .hero{
         display: block;
         width: 100%;
-<<<<<<< HEAD
-        height: 100vh;}
-=======
         height: 100vh auto;
     }
->>>>>>> 08187585bad58f6641e8fcb311c74ead725058a1
 
     header nav .hamburger span{
         display: inline-block;
         width: 90%;
         height: 5px;
         background-color: black;
-        border-radius: 10px;
-    }
+        border-radius: 10px;}
+    
       
     main .hero .next{
         width: 100%;
@@ -124,7 +136,7 @@ main{
     main .hero .choose .easy {
         width: 90%;
         display: block;
-        margin: 30px 30px;
+        margin: 30px auto;
         /* margin-bottom: 10px; */
     }
     main .hero .choose .easy p{
@@ -170,44 +182,22 @@ main{
         text-align: start;
     }
     main .hero .latest{
-<<<<<<< HEAD
-        height: 50vh;
-        width: 100%;
-        background-color: aqua;
-        
-    }
-    /* Articles Section Styling */
-.articles {
-    background-color: #f4f7f6;
-    padding: 4rem 2rem;
-}
-
-.articles-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-article {
-    background-color: #fff;
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 22%;
-}
-
-article img {
-    width: 100%;
-}
-=======
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: 50vh auto;
         background-color: #f7f3f3;
+        justify-content: space-between;
+        place-content: center;
+        align-items: center;
         
     }
     main .hero .latest .hed{
         width: 100%;
         padding: 15px;
+        justify-content: space-between;
+        place-content: center;
+        align-items: center;
     }
     main .hero .latest .articles-grid {
         width: 100%;
@@ -220,6 +210,9 @@ article img {
         background-color: #fff;
         height: fit-content;
         margin: 10px 15px;
+    }
+     .name{
+opacity: .4;
     }
     main .hero .latest .articles-grid .article .img{
         display: block;
@@ -236,13 +229,10 @@ article img {
         padding: 5px;
     }
    
->>>>>>> 08187585bad58f6641e8fcb311c74ead725058a1
     footer {
         background-color: rgb(6, 6, 41);
         padding: 2rem;
         box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-        margin-top: 300px;
-        display: block;
     
     }
     
@@ -250,7 +240,6 @@ article img {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
     
     .footer-links1 {
@@ -306,7 +295,7 @@ article img {
     }
 
     .copy{
-        color: rgb(102, 98, 98);g
+        color: rgb(102, 98, 98);
     }
 
      main .hero .next{
@@ -348,7 +337,7 @@ article img {
         display: flex;
         margin-left: 50px;
         align-items: center;
-        background-image: url(./image/bg-intro-desktop.svg);
+     background-image: url(./bg-intro-desktop.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -359,6 +348,8 @@ article img {
         margin-left: 40px;
     } 
     main .hero .next .word h1 {
-        color: black;
-    }
-
+        color: black;
+    }
+@media screen and {
+    
+}
