@@ -222,3 +222,11 @@ main{
     .copy{
         color: rgb(102, 98, 98);
     }
+    .author {
+        opacity: 0.2;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+.author:hover {
+    opacity: 1;
+}
