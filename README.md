@@ -1,5 +1,5 @@
 # final-css-project
-This Prohect was done by the Group E section of the CapacityBay Cohort 4, 2024 set:
+This Project was done by the Group E section of the CapacityBay Cohort 4, 2024 set:
 Our team had quite a robust planning and we shared the tasks among ourselves. We used the following codenames as stated in our whatsap profils:
 1. The container= Miss @~Emilia Ama , Mr @~Frankie .
 
