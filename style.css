@@ -39,6 +39,8 @@ header nav{
 }
 header nav .logo{
     font-size: 1.5rem;
+    cursor: pointer;
+
 }
 header nav .menu{
     padding: 10px;
@@ -53,6 +55,13 @@ header nav .menu a{
     font-weight: 700px;
     font-size: 18px;
 }
+
+header nav .menu a:hover{
+    background-color:  #31c17b;
+    color: white;
+    transition: ease-in-out 1s;
+}
+
 header nav .req{
     background-image: linear-gradient(to right,hsl(139, 77%, 47%), hsl(244, 75%, 69%));
     color: white;
@@ -60,6 +69,7 @@ header nav .req{
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700px;
+    cursor: pointer;
     
 }
 header nav .hamburger{
