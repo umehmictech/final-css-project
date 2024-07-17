@@ -108,6 +108,7 @@ main{
         align-items: center;
         background-color:#ffff;
         height: 60vh;
+        margin-left: 70px;
         
     }
     main .hero .choose{
@@ -119,7 +120,7 @@ main{
     main .hero .choose .easy {
         width: 90%;
         display: block;
-        margin: 30px 30px;
+        margin-left: 90px;
         /* margin-bottom: 10px; */
     }
     main .hero .choose .easy p{
@@ -128,7 +129,7 @@ main{
     main .hero .choose .icon {
         width: 90%;
         display: flex;
-        margin: 15px 15px;
+        margin: 30px auto;
         align-items: center;
         justify-content: center;
         /* background-color: aqua; */
@@ -173,12 +174,15 @@ main{
     main .hero .latest .hed{
         width: 100%;
         padding: 15px;
+        margin-left: 70px;
     }
     main .hero .latest .articles-grid {
         width: 100%;
         height: auto;
         display: flex;
+        flex-wrap: wrap;
         padding: 5px;
+        margin-left: 70px;
     }
     main .hero .latest .articles-grid .article {
         width: 20%;
@@ -212,6 +216,7 @@ main{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: auto 70px;
     }
     
     .footer-links1 {
@@ -322,4 +327,3 @@ main{
     main .hero .next .word h1 {
         color: black;
     }
-
