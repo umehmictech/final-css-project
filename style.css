@@ -60,6 +60,8 @@ header nav .menu a:hover{
     background-color:  #31c17b;
     color: white;
     transition: ease-in-out 1s;
+    border-radius: 7px;
+    padding-left: 8px;
 }
 
 header nav .req{
