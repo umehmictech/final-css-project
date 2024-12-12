@@ -39,6 +39,8 @@ header nav{
 }
 header nav .logo{
     font-size: 1.5rem;
+    cursor: pointer;
+
 }
 header nav .menu{
     padding: 10px;
@@ -53,6 +55,15 @@ header nav .menu a{
     font-weight: 700px;
     font-size: 18px;
 }
+
+header nav .menu a:hover{
+    background-color:  #31c17b;
+    color: white;
+    transition: ease-in-out 1s;
+    border-radius: 7px;
+    padding-left: 8px;
+}
+
 header nav .req{
     background-image: linear-gradient(to right,hsl(139, 77%, 47%), hsl(244, 75%, 69%));
     color: white;
@@ -60,6 +71,7 @@ header nav .req{
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700px;
+    cursor: pointer;
     
 }
 header nav .hamburger{
@@ -82,23 +94,6 @@ header nav .hamburger{
         width: 100%;
     } 
 
-
-header nav .hamburg{
-    display: none;
-    width: 40px;
-    height: 30px;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: space-around;
-}
-header nav .hamburg span{
-    display: inline-block;
-    width: 90%;
-    height: 5px;
-    background-color: black;
-    border-radius: 10px;
-}
-
 main{
     width: 100%;
     height: 100vh auto;
@@ -115,8 +110,8 @@ main{
         width: 90%;
         height: 5px;
         background-color: black;
-        border-radius: 10px;}
-    
+        border-radius: 10px;
+    }
       
     main .hero .next{
         width: 100%;
@@ -125,6 +120,7 @@ main{
         align-items: center;
         background-color:#ffff;
         height: 60vh;
+        margin-left: 70px;
         
     }
     main .hero .choose{
@@ -136,7 +132,7 @@ main{
     main .hero .choose .easy {
         width: 90%;
         display: block;
-        margin: 30px auto;
+        margin-left: 90px;
         /* margin-bottom: 10px; */
     }
     main .hero .choose .easy p{
@@ -145,7 +141,7 @@ main{
     main .hero .choose .icon {
         width: 90%;
         display: flex;
-        margin: 15px 15px;
+        margin: 30px auto;
         align-items: center;
         justify-content: center;
         /* background-color: aqua; */
@@ -182,37 +178,29 @@ main{
         text-align: start;
     }
     main .hero .latest{
-        display: flex;
-        flex-direction: column;
         width: 100%;
         height: 50vh auto;
         background-color: #f7f3f3;
-        justify-content: space-between;
-        place-content: center;
-        align-items: center;
         
     }
     main .hero .latest .hed{
         width: 100%;
         padding: 15px;
-        justify-content: space-between;
-        place-content: center;
-        align-items: center;
+        margin-left: 70px;
     }
     main .hero .latest .articles-grid {
         width: 100%;
         height: auto;
         display: flex;
+        flex-wrap: wrap;
         padding: 5px;
+        margin-left: 70px;
     }
     main .hero .latest .articles-grid .article {
         width: 20%;
         background-color: #fff;
         height: fit-content;
         margin: 10px 15px;
-    }
-     .name{
-opacity: .4;
     }
     main .hero .latest .articles-grid .article .img{
         display: block;
@@ -240,6 +228,7 @@ opacity: .4;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: auto 70px;
     }
     
     .footer-links1 {
@@ -295,7 +284,7 @@ opacity: .4;
     }
 
     .copy{
-        color: rgb(102, 98, 98);
+        color: rgb(102, 98, 98);g
     }
 
      main .hero .next{
@@ -337,7 +326,7 @@ opacity: .4;
         display: flex;
         margin-left: 50px;
         align-items: center;
-     background-image: url(./bg-intro-desktop.svg);
+        background-image: url(./image/bg-intro-desktop.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -348,8 +337,5 @@ opacity: .4;
         margin-left: 40px;
     } 
     main .hero .next .word h1 {
-        color: black;
-    }
-@media screen and {
-    
-}
+        color: black;
+    }
